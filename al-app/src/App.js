@@ -1,25 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
-
+import logo from "./logo.svg"; //наверное это императивный стиль
+import "./App.css";
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		//наверное это начинается декларативный стиль и продолжается до закрытия тэга div
+		<div className="App">
+			<header className="App-header">
+				<img src={logo} className="App-logo" alt="logo" />
+				<p>
+					Edit <code>src/App.js</code> and save to reload.
+				</p>
+				<a
+					className="App-link"
+					href="https://reactjs.org"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					Learn React
+				</a>
+				`{new Date().getFullYear()}`
+			</header>
+		</div>
+	);
 }
 
-export default App;
+export default App; //возможно это императивный стиль
