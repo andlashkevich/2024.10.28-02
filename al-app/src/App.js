@@ -22,5 +22,5 @@ function App() {
 		</div>
 	);
 }
-
-export default App; //возможно это императивный стиль
+//возможно это императивный стиль
+export default App;
